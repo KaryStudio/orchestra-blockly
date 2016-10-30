@@ -4,6 +4,10 @@ This is the fork we made of Blockly to make it suitable for [Orchestra](http://w
 - Custom Design: To suit our design harmony
 - Custom Core Functions: Like for example the way block help works
 
+
+## Changes made to the base
+- In Block SVG (from Core), the definition of `Blockly.BlockSvg.prototype.showHelp_` was changed (Check [this issue](https://github.com/google/blockly/issues/641) for more details)
+
 <br />
 <a href="http://www.karyfoundation.org/">
     <img src="http://www.karyfoundation.org/foundation/logo/github-full-horse.png" width="250"/>

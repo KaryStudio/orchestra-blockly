@@ -649,11 +649,8 @@ Blockly.BlockSvg.prototype.onMouseUp_ = function(e) {
  * Load the block's help page in a new window.
  * @private
  */
-Blockly.BlockSvg.prototype.showHelp_ = function() {
-  var url = goog.isFunction(this.helpUrl) ? this.helpUrl() : this.helpUrl;
-  if (url) {
-    window.open(url);
-  }
+Blockly.BlockSvg.prototype.showHelp_ = function ( ) {
+  openHelpWindowForReference( this.type );
 };
 
 /**
