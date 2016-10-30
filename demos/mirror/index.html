@@ -50,11 +50,11 @@
   <script>
     // Inject master workspace.
     var masterWorkspace = Blockly.inject('masterDiv',
-        {media: '../../media/',
+        {media: '../../blockly-core/media/',
          toolbox: document.getElementById('toolbox')});
     // Inject slave workspace.
     var slaveWorkspace = Blockly.inject('slaveDiv',
-        {media: '../../media/',
+        {media: '../../blockly-core/media/',
          readOnly: true});
     // Listen to events on master workspace.
     masterWorkspace.addChangeListener(mirrorEvent);
