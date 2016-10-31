@@ -706,7 +706,7 @@ AppController.prototype.init = function() {
   BlockFactory.mainWorkspace = Blockly.inject('blockly',
       {collapse: false,
        toolbox: toolbox,
-       media: '../../blockly-core/media/'});
+       media: '../../media/'});
 
   // Add tab handlers for switching between Block Factory and Block Exporter.
   this.addTabHandlers(this.tabMap);

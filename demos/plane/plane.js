@@ -264,7 +264,7 @@ Plane.init = function() {
   }
 
   Plane.workspace = Blockly.inject('blockly',
-      {media: '../../blockly-core/media/',
+      {media: '../../media/',
        rtl: Plane.isRtl(),
        toolbox: document.getElementById('toolbox')});
 

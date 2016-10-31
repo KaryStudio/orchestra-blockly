@@ -97,7 +97,7 @@ Blockly.Options = function(options) {
   if (hasCss === undefined) {
     hasCss = true;
   }
-  var pathToMedia = '././blockly-core/media/media/';
+  var pathToMedia = 'https://blockly-demo.appspot.com/static/media/';
   if (options['media']) {
     pathToMedia = options['media'];
   } else if (options['path']) {

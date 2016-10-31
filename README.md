@@ -7,7 +7,6 @@ This is the fork we made of Blockly to make it suitable for [Orchestra](http://w
 
 ## Changes made to the base
 - In Block SVG (from Core), the definition of `Blockly.BlockSvg.prototype.showHelp_` was changed (Check [this issue](https://github.com/google/blockly/issues/641) for more details)
-- Updating `https://blockly-demo.appspot.com/static/media/` path to `./blockly-core/media/` in all files to make the sounds available offline
 
 <br />
 <a href="http://www.karyfoundation.org/">

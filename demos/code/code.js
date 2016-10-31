@@ -395,7 +395,7 @@ Code.init = function() {
            length: 3,
            colour: '#ccc',
            snap: true},
-       media: '../../blockly-core/media/',
+       media: '../../media/',
        rtl: rtl,
        toolbox: toolboxXml,
        zoom:
